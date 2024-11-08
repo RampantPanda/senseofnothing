@@ -1,6 +1,6 @@
 ---
 # preview details
-title: Cactus
+title: Turku
 date: 2023-08-09T20:18:01+03:00
 category: Branding, Design
 category_slug: branding design
@@ -17,7 +17,7 @@ excerpt: "Created, likeness bring which in stars herb a is give you’ll it life
 
 # parallax
 parallax:
-  enable: false
+  enable: true
   image: "/images/Turku/Turku-1.jpg"
   title: "TURKU"
   effectTitle: "none" # Full list effects you can find in documentation theme

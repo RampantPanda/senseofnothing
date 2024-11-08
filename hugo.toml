@@ -17,189 +17,48 @@ DefaultContentLanguage = "en" # Site language. Available translations in the the
   name = "Home"
   url = ""
   weight = 1
-  [[menu.main]]
-    identifier = "parallax-home"
-    parent = "home"
-    name = "Parallax"
-    url = "/"
-    weight = 1
-  [[menu.main]]
-    identifier = "text-home"
-    parent = "home"
-    name = "Text"
-    url = "/text-home/"
-    weight = 2
-  [[menu.main]]
-    identifier = "slider-home"
-    parent = "home"
-    name = "Slider"
-    url = "/slider-home/"
-    weight = 3
-  [[menu.main]]
-    identifier = "slider-home-v2"
-    parent = "home"
-    name = "Slider v2"
-    url = "/slider-home-v2/"
-    weight = 4
+
 [[menu.main]]
-  identifier = "pages"
-  name = "Pages"
-  url = ""
-  weight = 2
-  [[menu.main]]
-    identifier = "about-me"
-    parent = "pages"
-    name = "About me"
-    url = "/about-me/"
-    weight = 1
-  [[menu.main]]
-    identifier = "about-me-v2"
-    parent = "pages"
-    name = "About me v2"
-    url = "/about-me-v2/"
-    weight = 2
-  [[menu.main]]
-    identifier = "about-us"
-    parent = "pages"
-    name = "About us"
-    url = "/about-us/"
-    weight = 3
-  [[menu.main]]
-    identifier = "about-us-v2"
-    parent = "pages"
-    name = "About us v2"
-    url = "/about-us-v2/"
-    weight = 4
-  [[menu.main]]
-    identifier = "landing-page"
-    parent = "pages"
-    name = "Landing Page"
-    url = "/landing-page/"
-    weight = 5
-  [[menu.main]]
-    identifier = "services"
-    parent = "pages"
-    name = "Services"
-    url = "/services/"
-    weight = 6
-  [[menu.main]]
-    identifier = "pricing"
-    parent = "pages"
-    name = "Pricing"
-    url = "/pricing/"
-    weight = 7
-  [[menu.main]]
-    identifier = "faq"
-    parent = "pages"
-    name = "FAQ"
-    url = "/faq/"
-    weight = 8
-[[menu.main]]
-  identifier = "portfolio"
-  name = "Portfolio"
-  url = ""
+  identifier = "cities"
+  name = "Cities"
+  url = "/portfolio"
   weight = 3
   [[menu.main]]
-    identifier = "portfolio-classic"
-    parent = "portfolio"
-    name = "Classic"
-    url = "/portfolio-classic/"
+    identifier = "city-turku"
+    parent = "cities"
+    name = "Turku"
+    url = "/portfolio/turku"
     weight = 1
   [[menu.main]]
-    identifier = "portfolio-minimal"
-    parent = "portfolio"
-    name = "Minimal"
-    url = "/portfolio-minimal/"
-    weight = 2
-  [[menu.main]]
-    identifier = "portfolio-alternative"
-    parent = "portfolio"
-    name = "Alternative"
-    url = "/portfolio-alternative/"
-    weight = 3
-  [[menu.main]]
-    identifier = "portfolio-creative"
-    parent = "portfolio"
-    name = "Creative"
-    url = "/portfolio-creative/"
-    weight = 4
-  [[menu.main]]
-    identifier = "portfolio-full-width"
-    parent = "portfolio"
-    name = "Full width"
-    url = "/portfolio-full-width/"
-    weight = 5
-  [[menu.main]]
-    identifier = "portfolio-single"
-    parent = "portfolio"
-    name = "Project Single"
-    url = ""
-    weight = 6
-    [[menu.main]]
-    identifier = "single-v1"
-    parent = "portfolio-single"
-    name = "Single v1"
-    url = "/portfolio/dream/"
+    identifier = "city-helsinki"
+    parent = "cities"
+    name = "Helsinki"
+    url = "/portfolio/helsinki"
     weight = 1
-    [[menu.main]]
-    identifier = "single-v2"
-    parent = "portfolio-single"
-    name = "Single v2"
-    url = "/portfolio/book/"
-    weight = 2
-    [[menu.main]]
-    identifier = "single-v3"
-    parent = "portfolio-single"
-    name = "Single v3"
-    url = "/portfolio/photo/"
-    weight = 3
-    [[menu.main]]
-    identifier = "single-v4"
-    parent = "portfolio-single"
-    name = "Single v4"
-    url = "/portfolio/hand/"
-    weight = 4
-[[menu.main]]
-  identifier = "blog"
-  name = "Blog"
-  url = ""
-  weight = 4
-    [[menu.main]]
-    identifier = "classic"
-    parent = "blog"
-    name = "Classic"
-    url = "/blog-classic/"
+  [[menu.main]]
+    identifier = "city-guangzhou"
+    parent = "cities"
+    name = "Guangzhou"
+    url = "/portfolio/guangzhou"
     weight = 1
-    [[menu.main]]
-    identifier = "minimal"
-    parent = "blog"
-    name = "Minimal"
-    url = "/blog-minimal/"
-    weight = 2
-    [[menu.main]]
-    identifier = "grid"
-    parent = "blog"
-    name = "Grid"
-    url = "/blog-grid/"
-    weight = 3
-    [[menu.main]]
-    identifier = "creative"
-    parent = "blog"
-    name = "Creative"
-    url = "/blog-creative/"
-    weight = 4
-    [[menu.main]]
-    identifier = "full-width"
-    parent = "blog"
-    name = "Full width"
-    url = "/blog-full-width/"
-    weight = 5
-    [[menu.main]]
-    identifier = "post-format"
-    parent = "blog"
-    name = "Post Format"
-    url = "/categories/post-format/"
-    weight = 6
+  [[menu.main]]
+    identifier = "city-riga"
+    parent = "cities"
+    name = "Riga"
+    url = "/portfolio/riga"
+    weight = 1
+  [[menu.main]]
+    identifier = "city-tokyo"
+    parent = "cities"
+    name = "Tokyo"
+    url = "/portfolio/tokyo"
+    weight = 1
+  [[menu.main]]
+    identifier = "city-paris"
+    parent = "cities"
+    name = "Paris"
+    url = "/portfolio/Paris"
+    weight = 1
 [[menu.main]]
   identifier = "contact"
   name = "Contact"
