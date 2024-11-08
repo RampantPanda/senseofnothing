@@ -1,8 +1,13 @@
 ---
 title: "Darkness made great"
 date: 2023-08-23T20:16:14+03:00
-format: "image" # Full list post format you can find in documentation theme
+format: "gallery" # Full list post format you can find in documentation theme
 image: images/blog/blog-3.jpg
+galleryImages: 
+    - image: "images/blog/blog-11.jpg"
+    - image: "images/blog/blog-12.jpg"
+    - image: "images/blog/blog-13.jpg"
+
 draft: false
 author: Mountain-Themes
 tags:
