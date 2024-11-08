@@ -1,6 +1,6 @@
 # General Settings
 title = "Glacier - Clean & Minimal Portfolio Hugo Theme"
-baseURL = "https://glacier-hugo.netlify.app/" #YOUR SITE URL
+baseURL = "https://senseofnothing.com" #YOUR SITE URL
 languageCode = "en-us"
 theme = "glacier"
 resourceDir = "resources"
@@ -60,40 +60,70 @@ DefaultContentLanguage = "en" # Site language. Available translations in the the
     url = "/portfolio/Paris"
     weight = 1
 [[menu.main]]
+  identifier = "other"
+  name = "Other"
+  url = "/portfolio"
+  weight = 3
+  [[menu.main]]
+    identifier = "people-dogs"
+    parent = "other"
+    name = "People With Dogs"
+    url = "/portfolio/withdogs"
+    weight = 1
+  [[menu.main]]
+    identifier = "people-bikes"
+    parent = "other"
+    name = "People With Bikes"
+    url = "/portfolio/withbikes"
+    weight = 1
+  [[menu.main]]
+    identifier = "people-without"
+    parent = "other"
+    name = "People Without Bikes Or Dogs"
+    url = "/portfolio/without"
+    weight = 1
+  [[menu.main]]
+    identifier = "dogs-without"
+    parent = "other"
+    name = "Dogs Without Bikes Or People"
+    url = "/portfolio/dogswithout"
+    weight = 1
+  [[menu.main]]
+    identifier = "nothing"
+    parent = "other"
+    name = "No People, Bikes Or Dogs"
+    url = "/portfolio/nothing"
+    weight = 1
+  [[menu.main]]
+    identifier = "people-music"
+    parent = "other"
+    name = "People Doing Music"
+    url = "/portfolio/music"
+    weight = 1
+[[menu.main]]
   identifier = "contact"
   name = "Contact"
   url = ""
   weight = 5
     [[menu.main]]
-    identifier = "contact-v1"
+    identifier = "contact"
     parent = "contact"
-    name = "Contact v1"
-    url = "/contact-v1/"
+    name = "Contact"
+    url = "/contact"
     weight = 1
-    [[menu.main]]
-    identifier = "contact-v2"
-    parent = "contact"
-    name = "Contact v2"
-    url = "/contact-v2/"
-    weight = 2
-    [[menu.main]]
-    identifier = "contact-v3"
-    parent = "contact"
-    name = "Contact v3"
-    url = "/contact-v3/"
-    weight = 3
+
 
 # Main Settings
 [params]
-defaultLogo = "Glacier"
-defaultKeywords = ["clean", "minimal", "blog", "responsive", "google analytics", "bootstrap", "portfolio", "personal", "modern", "parallax", "hugo theme", "creative"]
-defaultDescription = "Glacier - Clean & Minimal Portfolio Hugo Theme"
+defaultLogo = "Sense Of Nothing"
+#defaultKeywords = ["clean", "minimal", "blog", "responsive", "google analytics", "bootstrap", "portfolio", "personal", "modern", "parallax", "hugo theme", "creative"]
+defaultDescription = "Sense Of Nothing Making Sense"
 dateFormat = "January 2, 2006"
-authorName = "Mountain-Themes"
-disqusComments = "glacier-hugo" #YOUR DISQUS COMMENTS SHORTNAME
-formspreeFormID = "mjvqooeb" #YOUR FORMSPREE FORM ID
-reCAPTCHAKey = "6Lcw_i0oAAAAAPAgHOI4qqgQv0L4x8zC3j-RdRUD" #YOUR reCAPTCHA v2 key
-googleMapsApiKey = "AIzaSyAV1KS10sb3O462XosfZTKohHJwi6C0joo" #YOUR GOOGLE API KEY
+authorName = "Pekka"
+#disqusComments = "glacier-hugo" #YOUR DISQUS COMMENTS SHORTNAME
+#formspreeFormID = "mjvqooeb" #YOUR FORMSPREE FORM ID
+#reCAPTCHAKey = "6Lcw_i0oAAAAAPAgHOI4qqgQv0L4x8zC3j-RdRUD" #YOUR reCAPTCHA v2 key
+#googleMapsApiKey = "AIzaSyAV1KS10sb3O462XosfZTKohHJwi6C0joo" #YOUR GOOGLE API KEY
 
 # Sidebar Settings
 [params.sidebar]
@@ -140,7 +170,7 @@ slug = "illustration"
 
 # Footer Settings
 [params.footer]
-copyright = "Glacier © 2024. Design & Coded by <a href='http://themeforest.net/user/Mountain-Themes' target='_blank'> Mountain-Themes.</a>"
+copyright = "Nope, no sense.</a>"
 
 # Social Settings
 [[params.social]]
